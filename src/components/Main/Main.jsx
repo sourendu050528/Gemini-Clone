@@ -23,7 +23,7 @@ const Main = () => {
             <img src={assets.compass_icon} alt="" />
           </div>
           <div className="card">
-            <p>Briefly Summaraize this Concept: Uraban Planning</p>
+            <p>Briefly Summaraize this Concept: Urban Planning</p>
             <img src={assets.bulb_icon} alt="" />
           </div>
           <div className="card">
