@@ -1,11 +1,11 @@
 import React  from 'react'
 import './Main.css'
 import { assets } from '../../assets/assets'
+import run from '../../config/gemini'
 
 
 const Main = () => {
 
- 
   return (
     <div className='main'>
       <div className="nav">
@@ -41,7 +41,7 @@ const Main = () => {
             <div>
               <img src={assets.gallery_icon} alt="" />
               <img src={assets.mic_icon} alt="" />
-              <img src={assets.send_icon} alt="" />
+              <img  src={assets.send_icon} alt="" />
             </div>
           </div>
           <p className='bottom-info'>
